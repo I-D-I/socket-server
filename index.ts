@@ -1,10 +1,10 @@
 
-import Server from "./classes/server";
+import Servidor from "./classes/servidor";
 import router from "./routes/router";
 import bodyParser from "body-parser";
 import cors from 'cors';
 
-const server = new Server();
+const server = Servidor.instance;
 
 server.app.use( bodyParser.urlencoded({ extended: true }));
 server.app.use( bodyParser.json() );

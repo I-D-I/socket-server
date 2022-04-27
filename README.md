@@ -28,3 +28,8 @@ nodemon dist/
 npm i --save-dev @types/express
 npm i --save-dev @types/cors
 ```
+
+## adición de socket.io
+```
+npm i socket.io
+```
